@@ -1,0 +1,16 @@
+{
+  "name": "aoe-testautomationtask",
+  "version": "1.0.0",
+  "description": "This project contains tests using TypeScript for the Test Automation Recruiting Exercise.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.6.4",
+    "typescript": "^5.3.3"
+  }
+}
