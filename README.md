@@ -1,15 +1,13 @@
-# Test Automation Recruiting Exercise
-
-This project contains tests using TypeScript for the Test Automation Recruiting Exercise.
+# Test Challenge (February 2024)
 
 #### How to run tests
 
 **Prerequisites:** make sure you have Node.js and npm installed on your machine.
 
 1. Clone the repository:
-   `git clone https://github.com/albinafisher/AOE-TestAutomationTask`
-2. Navigate to the AOE-TestAutomationTask folder:
-   `cd AOE-TestAutomationTask`
+   `git clone https://github.com/albinafisher/test-challenge-02-2024.git`
+2. Navigate to the test-challenge-02-2024 folder:
+   `cd test-challenge-02-2024`
 3. Install dependencies:
    `npm install`
 4. Open Cypress test runner:

@@ -7,7 +7,7 @@ export class VacanciesPage {
   // get filtered vacancies without the "display: none;" attribute
   getFilteredVacancies = () =>
     cy.get(".filter-list-item:not([style*='display: none;'])");
-  getFirstFilteredVacancy = () => this.getFilteredVacancies().eq(0).find("a");
+  getFirstFilteredVacancy = () => this.getFilteredVacancies().first();
 
   // methods
 

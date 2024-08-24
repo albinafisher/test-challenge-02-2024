@@ -5,7 +5,7 @@ export class HomePage {
 
   getCookiesBanner = () => cy.get("[id='onetrust-group-container']");
   getAcceptCookiesBtn = () => cy.get("[id='onetrust-accept-btn-handler']");
-  getCareersSectionBtn = () => cy.get("[data-qa='nav_main_6']");
+  getCareersSectionBtn = () => cy.get("[data-qa='nav_main_4']");
 
   // methods
 
@@ -19,6 +19,6 @@ export class HomePage {
   }
 
   clickCareersSectionBtn() {
-    this.getCareersSectionBtn().click();
+    this.getCareersSectionBtn().invoke("removeAttr", "target").click();
   }
 }

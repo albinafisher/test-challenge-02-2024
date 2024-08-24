@@ -9,12 +9,7 @@ export class JobDescriptionPage {
   getJobSectionHeader = () => cy.get(".ce-bodytext h2");
   getJobSectionDescription = () => cy.get(".ce-bodytext > ul");
 
-  getCompanyHeader = () =>
-    cy.get(".ce-bodytext.table-responsive p strong").eq(0);
-  getCompanyOverview = () =>
-    cy.get(".ce-bodytext.table-responsive p strong").eq(1);
-
-  getApplyBtn = () => cy.get(".ce-bodytext .action-1.btn");
+  getApplyBtn = () => cy.get("[type='submit']");
 
   // methods
 
@@ -32,9 +27,6 @@ export class JobDescriptionPage {
     this.getJobSectionDescription().each(($element) => {
       cy.wrap($element).should("not.be.empty");
     });
-
-    this.getCompanyHeader().should("not.be.empty");
-    this.getCompanyOverview().should("not.be.empty");
 
     this.getApplyBtn().scrollIntoView().should("be.visible");
   }

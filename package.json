@@ -1,7 +1,7 @@
 {
-  "name": "aoe-testautomationtask",
+  "name": "test-challenge-02-2024",
   "version": "1.0.0",
-  "description": "This project contains tests using TypeScript for the Test Automation Recruiting Exercise.",
+  "description": "Test Challenge (February 2024)",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
