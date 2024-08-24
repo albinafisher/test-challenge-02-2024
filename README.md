@@ -2,7 +2,7 @@
 
 #### How to run tests
 
-**Prerequisites:** make sure you have Node.js and npm installed on your machine.
+_Prerequisites:_ make sure you have Node.js and npm installed on your machine.
 
 1. Clone the repository:
    `git clone https://github.com/albinafisher/test-challenge-02-2024.git`
